@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+}
+
+body{
+    
+    background-color: rgb(153, 241, 241);
+    
+}
+
+.conteinerfigure{
+    width: 100%;
+    /* height: 100dvh; */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    /* justify-content: space-between;
+    align-content: space-between;
+    align-items: center; */
+
+}
+.hero {
+    background-image: url(./img/portada3.jpg);
+    background-size: cover;
+      /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    color: #ffffff;
+    /* text-align: center; */
+    width: 100%; 
+    height: 100vh; 
+    padding: 1px;
+    /* margin: 10px; */
+    }
+    .glass{
+        width: 100%;
+        /* height: 30dvh; */
+        /* background-color: azure; */
+        border-radius: 16px ;
+        /* box-shadow: 0 4px 30px ; */
+        -webkit-text-fill-color: rgba(0, 0, 255, 0.37);
+        -webkit-text-stroke: 4px #040405;
+       
+        
+    }
+    .NavLinks{
+        list-style: none;
+        display: flex;
+        justify-content:flex-end;
+        gap: 20px;
+    }
+    .NavLinks li{
+        display: inline-block;
+        padding: 20PX;
+              }
+              .NavLinks a{
+                text-decoration: none;
+                color: #ffe4c4;
+                font-size: 24px;
+            }
+            .TituloHero{
+                font-size: 100px;     
+                text-align: center;      
+
+            }
+            .figureTotalImg{
+                width: 400px ;
+                flex-basis: 400px;
+                flex-grow: 1;
+            }
+
+            .cadaImg{
+                width: 300px;
+                /* height: 100%;
+                width: 100%; */
+                flex: 250px; 
+                object-fit: cover;
+            }
+
+            .descImg{
+                text-align: center;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            .HijoSection{
+                width: 300px;
+                flex: 250px; 
+            }
